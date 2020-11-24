@@ -4,7 +4,10 @@
 #include <vector>
 
 void task1();
-void dynamicCalc();
+void dynamicCalcNew();
+bool isModifier(char a);
+bool isNumber(char a);
 int letterToNum(char a);
 int tennify(int x);
-float bigboyalculate(float x, float y, char a);
+float bigboyalculate(float x, int y, char a);
+
